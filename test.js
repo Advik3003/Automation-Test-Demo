@@ -1,0 +1,12 @@
+const { browser } = require("protractor");
+
+  describe('Protractor Demo App', function(){
+        it('should have a title', function(){
+          var path=  browser.get('http://juliemr.github.io/protractor-demo/');
+          browser.sleep(5000);
+
+          expect(browser.getTitle()).toEqual('Super Calculator');
+          browser.sleep(3000);
+        });
+
+  });
