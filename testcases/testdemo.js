@@ -1,5 +1,6 @@
 const { browser } = require("protractor");
 
+  //This demo test case for calculater demo url
   describe('Protractor Demo App', function(){
         it('should have a title', function(){
           var path=  browser.get('http://juliemr.github.io/protractor-demo/');
